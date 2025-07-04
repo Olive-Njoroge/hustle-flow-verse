@@ -1,11 +1,12 @@
 
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Home, Grid2x2, MessageSquare, User } from 'lucide-react';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   const navItems = [
     { name: 'Dashboard', path: '/dashboard', icon: Home },
@@ -13,6 +14,11 @@ const Navigation = () => {
     { name: 'My Hustles', path: '/my-hustles', icon: User },
     { name: 'Messages', path: '/messages', icon: MessageSquare },
   ];
+
+  const handlePostHustle = () => {
+    navigate('/post-hustle');
+    setIsMenuOpen(false);
+  };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-teal-100 shadow-sm">
@@ -47,7 +53,10 @@ const Navigation = () => {
               </NavLink>
             ))}
             
-            <Button className="bg-gradient-to-r from-teal-500 to-sky-500 hover:from-teal-600 hover:to-sky-600 text-white font-medium px-6 py-2 rounded-lg shadow-md hover:shadow-lg transition-all duration-200">
+            <Button 
+              onClick={handlePostHustle}
+              className="bg-gradient-to-r from-teal-500 to-sky-500 hover:from-teal-600 hover:to-sky-600 text-white font-medium px-6 py-2 rounded-lg shadow-md hover:shadow-lg transition-all duration-200"
+            >
               Post a Hustle
             </Button>
           </div>
@@ -87,7 +96,10 @@ const Navigation = () => {
                 </NavLink>
               ))}
               
-              <Button className="mt-4 bg-gradient-to-r from-teal-500 to-sky-500 hover:from-teal-600 hover:to-sky-600 text-white font-medium py-3 rounded-lg shadow-md">
+              <Button 
+                onClick={handlePostHustle}
+                className="mt-4 bg-gradient-to-r from-teal-500 to-sky-500 hover:from-teal-600 hover:to-sky-600 text-white font-medium py-3 rounded-lg shadow-md"
+              >
                 Post a Hustle
               </Button>
             </div>
