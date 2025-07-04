@@ -1,73 +1,70 @@
-# Welcome to your Lovable project
+# 🚀 Hustle Hub
 
-## Project info
+**Hustle Hub** is a complete, modern, and vibrant web application that allows users to showcase, promote, and manage their side hustles or small businesses.
 
-**URL**: https://lovable.dev/projects/63f9228b-9ce1-4781-a01d-7931cfe88a36
+---
 
-## How can I edit this code?
+## 🌍 Impact
 
-There are several ways of editing your application.
+**Hustle Hub** empowers freelancers, small business owners, and side hustlers to showcase their talents, products, and services in a supportive digital space. By increasing visibility and fostering connections, the platform helps users grow their customer base and take steps toward financial independence. It promotes entrepreneurship, community collaboration, and economic inclusion through an accessible, user-friendly design.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/63f9228b-9ce1-4781-a01d-7931cfe88a36) and start prompting.
+## 🌟 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+* Showcase and manage hustles through intuitive dashboards and forms.
+* Connect with potential clients via a marketplace and messaging system.
+* Track activity, earnings, and manage posted services easily.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🧭 Navigation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* Fixed top navigation bar:
 
-Follow these steps:
+  * Logo
+  * Dashboard
+  * Marketplace
+  * My Hustles
+  * Messages
+  * Logout/Profile
+* Mobile-friendly hamburger menu
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📱 Responsiveness
 
-# Step 3: Install the necessary dependencies.
-npm i
+* Mobile-first design
+* Tablet and desktop optimized
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🎨 Lovable Design Prompt (Used for Hustle Hub UI)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+> Design a complete, modern, and vibrant web application called **Hustle Hub**—a platform for users to showcase, promote, and manage their side hustles or small businesses.
+>
+> **Key Screens:**
+>
+> * Landing Page: Hero section, value proposition, prominent "Get Started" CTA.
+> * Login/Sign-up: Clean, stylish authentication screens.
+> * User Dashboard: Profile info, earnings, recent activity, and quick links to post/manage hustles.
+> * Post Hustle Page: Form to add hustle details: name, description, category, price, contact info, images.
+> * Manage Hustles: List of user’s posted hustles with edit, delete, and view options.
+> * Marketplace: Grid/list view of all hustles with search bar and filters (category, price).
+> * Messages/Notifications: Simple messaging system for buyer-seller communication.
+> * Error & Empty States: Friendly designs for missing data, loading, or failed actions.
+>
+> **Navigation:**
+>
+> * Fixed top nav with logo, Dashboard, Marketplace, My Hustles, Messages, Logout/Profile.
+> * Mobile-friendly hamburger menu.
+>
+> **Responsiveness:**
+>
+> * Mobile-first, tablet-friendly, and desktop optimized.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🚀 How to Use
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/63f9228b-9ce1-4781-a01d-7931cfe88a36) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This README provides both the **product overview** and the **Lovable prompt** used to generate the UI design. It can be adapted for development, design, and project documentation.
